@@ -1,0 +1,647 @@
+{
+  "uploadId": "demo",
+  "metrics": {
+    "durationSec": 120,
+    "activeSpeechSec": 120,
+    "activeSpeechMin": 2,
+    "initialSilenceSec": 0,
+    "finalSilenceSec": 0,
+    "speakingShare": 1,
+    "totalWords": 200,
+    "contentWords": 155,
+    "uniqueContentWords": 114,
+    "contentLexicalDiversity": 0.74,
+    "wordsPerMinute": 100,
+    "contentWordsPerMinute": 77.5,
+    "fillersTotal": 10,
+    "fillersUnique": 7,
+    "fillerWordCount": 10,
+    "fillerWordShare": 0.05,
+    "fillersPerMinute": 5,
+    "fillersPer100Words": 5,
+    "pausesTotal": 5,
+    "pauseTotalDuration": 10,
+    "pauseAvgDuration": 2,
+    "pauseMaxDuration": 2,
+    "pauseMedianDuration": 2,
+    "pauseP90Duration": 2,
+    "pausesPerMinute": 2.5,
+    "pauseTimeShare": 0.08,
+    "pauseThresholdSec": 1.5,
+    "phraseRepetitionsTotal": 2,
+    "phraseRepetitionsPerMinute": 1,
+    "wordRepetitionsTotal": 19,
+    "wordRepetitionsPerMinute": 9.5,
+    "topFillers": [
+      {
+        "phrase": "э",
+        "count": 3,
+        "perMinute": 1.5,
+        "per100Words": 1.5
+      },
+      {
+        "phrase": "ну",
+        "count": 2,
+        "perMinute": 1,
+        "per100Words": 1
+      },
+      {
+        "phrase": "типа",
+        "count": 1,
+        "perMinute": 0.5,
+        "per100Words": 0.5
+      },
+      {
+        "phrase": "эм",
+        "count": 1,
+        "perMinute": 0.5,
+        "per100Words": 0.5
+      },
+      {
+        "phrase": "эээ",
+        "count": 1,
+        "perMinute": 0.5,
+        "per100Words": 0.5
+      },
+      {
+        "phrase": "вот",
+        "count": 1,
+        "perMinute": 0.5,
+        "per100Words": 0.5
+      },
+      {
+        "phrase": "мм",
+        "count": 1,
+        "perMinute": 0.5,
+        "per100Words": 0.5
+      }
+    ],
+    "structureMarkersTotal": 0,
+    "structureMarkersPerMinute": 0,
+    "structureMarkerSegments": 0,
+    "structureMarkerSegmentsShare": 0,
+    "structurednessScore": 0,
+    "topStructureMarkers": [],
+    "affectPosTotal": 11,
+    "affectNegTotal": 2,
+    "affectWordsTotal": 13,
+    "affectWordsPer100Words": 6.5,
+    "affectPolarity": 0.69,
+    "intensityWordsTotal": 5,
+    "intensityWordsPer100Words": 2.5,
+    "emotionalityScore": 34.3,
+    "overallScore": 43.4,
+    "overallScoreRaw": 42.27,
+    "reliability": 1,
+    "weights": {
+      "fillers": 0.35,
+      "repetitions": 0.25,
+      "pauses": 0.2,
+      "rate": 0.2
+    },
+    "subscoresRaw": {
+      "fillers": 62.95,
+      "repetitions": 0,
+      "pauses": 14.68,
+      "rate": 86.53
+    },
+    "subscores": {
+      "fillers": 63,
+      "repetitions": 0,
+      "pauses": 15,
+      "rate": 87
+    },
+    "losses": {
+      "fillers": 13,
+      "repetitions": 25,
+      "pauses": 17.1,
+      "rate": 2.7
+    },
+    "timeseries": {
+      "rateWpm": {
+        "stepSec": 3,
+        "windowSec": 12,
+        "values": [
+          [
+            0,
+            110
+          ],
+          [
+            3,
+            113.3
+          ],
+          [
+            6,
+            110
+          ],
+          [
+            9,
+            110
+          ],
+          [
+            12,
+            110
+          ],
+          [
+            15,
+            110
+          ],
+          [
+            18,
+            90
+          ],
+          [
+            21,
+            90
+          ],
+          [
+            24,
+            90
+          ],
+          [
+            27,
+            90
+          ],
+          [
+            30,
+            110
+          ],
+          [
+            33,
+            110
+          ],
+          [
+            36,
+            110
+          ],
+          [
+            39,
+            110
+          ],
+          [
+            42,
+            90
+          ],
+          [
+            45,
+            90
+          ],
+          [
+            48,
+            90
+          ],
+          [
+            51,
+            90
+          ],
+          [
+            54,
+            110
+          ],
+          [
+            57,
+            110
+          ],
+          [
+            60,
+            110
+          ],
+          [
+            63,
+            110
+          ],
+          [
+            66,
+            90
+          ],
+          [
+            69,
+            90
+          ],
+          [
+            72,
+            90
+          ],
+          [
+            75,
+            90
+          ],
+          [
+            78,
+            110
+          ],
+          [
+            81,
+            110
+          ],
+          [
+            84,
+            110
+          ],
+          [
+            87,
+            110
+          ],
+          [
+            90,
+            90
+          ],
+          [
+            93,
+            90
+          ],
+          [
+            96,
+            90
+          ],
+          [
+            99,
+            90
+          ],
+          [
+            102,
+            100
+          ],
+          [
+            105,
+            90
+          ],
+          [
+            108,
+            95
+          ],
+          [
+            111,
+            90
+          ],
+          [
+            114,
+            100
+          ],
+          [
+            117,
+            106.7
+          ],
+          [
+            120,
+            100
+          ]
+        ]
+      }
+    },
+    "timeseriesStats": {
+      "rateWpm": {
+        "min": 90,
+        "avg": 100.1,
+        "max": 113.3,
+        "std": 9.6
+      }
+    },
+    "rateWpmStd": 9.6
+  },
+  "fillers": {
+    "total": 10,
+    "unique": 7,
+    "byPhrase": {
+      "э": 3,
+      "ну": 2,
+      "типа": 1,
+      "эм": 1,
+      "эээ": 1,
+      "вот": 1,
+      "мм": 1
+    },
+    "occurrences": [
+      {
+        "phrase": "э",
+        "start": 3.3,
+        "end": 3.85,
+        "segmentIndex": 0,
+        "wordIndex": 6,
+        "wordCount": 1
+      },
+      {
+        "phrase": "ну",
+        "start": 13.75,
+        "end": 14.3,
+        "segmentIndex": 1,
+        "wordIndex": 5,
+        "wordCount": 1
+      },
+      {
+        "phrase": "типа",
+        "start": 25.65,
+        "end": 26.2,
+        "segmentIndex": 2,
+        "wordIndex": 3,
+        "wordCount": 1
+      },
+      {
+        "phrase": "эм",
+        "start": 36.65,
+        "end": 37.2,
+        "segmentIndex": 3,
+        "wordIndex": 3,
+        "wordCount": 1
+      },
+      {
+        "phrase": "эээ",
+        "start": 50.2,
+        "end": 50.75,
+        "segmentIndex": 4,
+        "wordIndex": 4,
+        "wordCount": 1
+      },
+      {
+        "phrase": "вот",
+        "start": 60.65,
+        "end": 61.2,
+        "segmentIndex": 5,
+        "wordIndex": 3,
+        "wordCount": 1
+      },
+      {
+        "phrase": "мм",
+        "start": 73.65,
+        "end": 74.2,
+        "segmentIndex": 6,
+        "wordIndex": 3,
+        "wordCount": 1
+      },
+      {
+        "phrase": "э",
+        "start": 85.75,
+        "end": 86.3,
+        "segmentIndex": 7,
+        "wordIndex": 5,
+        "wordCount": 1
+      },
+      {
+        "phrase": "ну",
+        "start": 98.2,
+        "end": 98.75,
+        "segmentIndex": 8,
+        "wordIndex": 4,
+        "wordCount": 1
+      },
+      {
+        "phrase": "э",
+        "start": 111.2,
+        "end": 111.75,
+        "segmentIndex": 9,
+        "wordIndex": 4,
+        "wordCount": 1
+      }
+    ]
+  },
+  "repetitions": {
+    "total": 2,
+    "occurrences": [
+      {
+        "phrase": "важно держать фокус",
+        "wordCount": 3,
+        "start": 5.5,
+        "end": 7.15,
+        "prevStart": 3.85,
+        "prevEnd": 5.5,
+        "distanceSeconds": 0,
+        "distanceWords": 3
+      },
+      {
+        "phrase": "главное помнить людей",
+        "wordCount": 3,
+        "start": 113.4,
+        "end": 115.05,
+        "prevStart": 111.75,
+        "prevEnd": 113.4,
+        "distanceSeconds": 0,
+        "distanceWords": 3
+      }
+    ],
+    "config": {
+      "minWords": 3,
+      "maxWords": 10,
+      "maxDistanceWords": 40,
+      "maxDistanceSec": 15,
+      "minContentWords": 2
+    }
+  },
+  "wordRepetitions": {
+    "total": 19,
+    "occurrences": [
+      {
+        "word": "задача",
+        "start": 15.4,
+        "end": 15.95,
+        "prevStart": 14.3,
+        "prevEnd": 14.85,
+        "distanceSeconds": 0.5500000000000007,
+        "distanceWords": 2
+      },
+      {
+        "word": "ясна",
+        "start": 15.95,
+        "end": 16.5,
+        "prevStart": 14.85,
+        "prevEnd": 15.4,
+        "distanceSeconds": 0.5499999999999989,
+        "distanceWords": 2
+      },
+      {
+        "word": "команда",
+        "start": 30.05,
+        "end": 30.6,
+        "prevStart": 29.5,
+        "prevEnd": 30.05,
+        "distanceSeconds": 0,
+        "distanceWords": 1
+      },
+      {
+        "word": "факты",
+        "start": 37.2,
+        "end": 37.75,
+        "prevStart": 36.1,
+        "prevEnd": 36.65,
+        "distanceSeconds": 0.5500000000000043,
+        "distanceWords": 2
+      },
+      {
+        "word": "варианты",
+        "start": 40.5,
+        "end": 41.05,
+        "prevStart": 39.95,
+        "prevEnd": 40.5,
+        "distanceSeconds": 0,
+        "distanceWords": 1
+      },
+      {
+        "word": "решение",
+        "start": 50.75,
+        "end": 51.3,
+        "prevStart": 49.65,
+        "prevEnd": 50.2,
+        "distanceSeconds": 0.5499999999999972,
+        "distanceWords": 2
+      },
+      {
+        "word": "решение",
+        "start": 51.85,
+        "end": 52.4,
+        "prevStart": 50.75,
+        "prevEnd": 51.3,
+        "distanceSeconds": 0.5500000000000043,
+        "distanceWords": 2
+      },
+      {
+        "word": "простое",
+        "start": 52.4,
+        "end": 52.95,
+        "prevStart": 51.3,
+        "prevEnd": 51.85,
+        "distanceSeconds": 0.5499999999999972,
+        "distanceWords": 2
+      },
+      {
+        "word": "эффект",
+        "start": 61.2,
+        "end": 61.75,
+        "prevStart": 60.1,
+        "prevEnd": 60.65,
+        "distanceSeconds": 0.5500000000000043,
+        "distanceWords": 2
+      },
+      {
+        "word": "пример",
+        "start": 75.3,
+        "end": 75.85,
+        "prevStart": 74.2,
+        "prevEnd": 74.75,
+        "distanceSeconds": 0.5499999999999972,
+        "distanceWords": 2
+      },
+      {
+        "word": "первый",
+        "start": 75.85,
+        "end": 76.4,
+        "prevStart": 74.75,
+        "prevEnd": 75.3,
+        "distanceSeconds": 0.5499999999999972,
+        "distanceWords": 2
+      },
+      {
+        "word": "где",
+        "start": 79.15,
+        "end": 79.7,
+        "prevStart": 76.95,
+        "prevEnd": 77.5,
+        "distanceSeconds": 1.6500000000000057,
+        "distanceWords": 4
+      },
+      {
+        "word": "порядок",
+        "start": 86.3,
+        "end": 86.85,
+        "prevStart": 85.2,
+        "prevEnd": 85.75,
+        "distanceSeconds": 0.5499999999999972,
+        "distanceWords": 2
+      },
+      {
+        "word": "порядок",
+        "start": 87.4,
+        "end": 87.95,
+        "prevStart": 86.3,
+        "prevEnd": 86.85,
+        "distanceSeconds": 0.5500000000000114,
+        "distanceWords": 2
+      },
+      {
+        "word": "важен",
+        "start": 87.95,
+        "end": 88.5,
+        "prevStart": 86.85,
+        "prevEnd": 87.4,
+        "distanceSeconds": 0.5499999999999972,
+        "distanceWords": 2
+      },
+      {
+        "word": "цель",
+        "start": 98.75,
+        "end": 99.3,
+        "prevStart": 97.1,
+        "prevEnd": 97.65,
+        "distanceSeconds": 1.0999999999999943,
+        "distanceWords": 3
+      },
+      {
+        "word": "понятна",
+        "start": 99.3,
+        "end": 99.85,
+        "prevStart": 97.65,
+        "prevEnd": 98.2,
+        "distanceSeconds": 1.0999999999999943,
+        "distanceWords": 3
+      },
+      {
+        "word": "шаги",
+        "start": 100.95,
+        "end": 101.5,
+        "prevStart": 99.85,
+        "prevEnd": 100.4,
+        "distanceSeconds": 0.5499999999999972,
+        "distanceWords": 2
+      },
+      {
+        "word": "ясны",
+        "start": 101.5,
+        "end": 102.05,
+        "prevStart": 100.4,
+        "prevEnd": 100.95,
+        "distanceSeconds": 0.5499999999999972,
+        "distanceWords": 2
+      }
+    ],
+    "config": {
+      "maxDistanceWords": 10,
+      "maxDistanceSec": 6,
+      "ignoredStopwords": 17,
+      "ignoredShortTokens": 18,
+      "ignoredBecauseFiller": 10,
+      "ignoredBecauseInPhraseRepetition": 12
+    }
+  },
+  "pauses": {
+    "thresholdSec": 1.5,
+    "total": 5,
+    "totalDuration": 10,
+    "maxDuration": 2,
+    "avgDuration": 2,
+    "occurrences": [
+      {
+        "start": 22,
+        "end": 24,
+        "duration": 2
+      },
+      {
+        "start": 46,
+        "end": 48,
+        "duration": 2
+      },
+      {
+        "start": 70,
+        "end": 72,
+        "duration": 2
+      },
+      {
+        "start": 94,
+        "end": 96,
+        "duration": 2
+      },
+      {
+        "start": 107,
+        "end": 109,
+        "duration": 2
+      }
+    ]
+  }
+}

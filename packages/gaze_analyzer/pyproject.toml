@@ -1,0 +1,13 @@
+[project]
+name = "gaze-analyzer"
+version = "0.1.0"
+description = "Head-pose based gaze-away analysis using MediaPipe FaceMesh"
+requires-python = ">=3.13"
+dependencies = [
+  "mediapipe",
+  "opencv-python",
+  "numpy",
+]
+
+[project.scripts]
+gaze-analyze = "gaze_analyzer.mediapipe_headpose:main"
